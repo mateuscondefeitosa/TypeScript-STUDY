@@ -14,6 +14,6 @@ export default function ShoppingList(props: ShoppingListProps): JSX.Element {
                     <li key={item.id}>{item.quantity} {item.product};</li>
                 ))}
             </ul>
-        </div>333
+        </div>
     );
 }
